@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Link tree</title>
+    <meta name="author" content="Mamonga">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+    const myName = `mamonga`;
+    const IsTheBest = true;
+
+
+
+
+    console.log(`${myName} is the best: ${IsTheBest}`);
+
+</script>
+
+<body>
+    <header>
+
+        <button id="overstimulationToggle">overstimulation</button>
+
+        <h1>Mamongas Link Page</h1>
+
+
+
+
+    </header>
+    <main>
+        <div><img src="momonga-chiikawa.gif" alt=""></div>
+        <section class="class_2">
+            <div>
+                <h1>Mamonga</h1>
+            </div>
+            <div>
+                <p id="text">Momonga (モモンガ) is a secondary character of the Chiikawa manga and anime series. They are a
+                    flying squirrel who is often seen begging for attention and praise, stealing food, and causing
+                    trouble for other characters. Their name comes from the Japanese word "momonga", which aside from
+                    being the name of a species of flying squirrel, also means Evil. </p>
+            </div>
+        </section>
+
+        <section class="class_3">
+            <div class="button">
+                <img class="icon" src="icon_star.png" alt="">
+                <a href="tumblr.com">tumblr</a>
+            </div>
+            <div class="button">
+                <img class="icon" src="icon_star.png" alt="">
+                <a href="tumblr.com">tumblr</a>
+            </div>
+            <div class="button">
+                <img class="icon" src="icon_star.png" alt="">
+                <a href="tumblr.com">tumblr</a>
+            </div>
+            <div class="button">
+                <img class="icon" src="icon_star.png" alt="">
+                <a href="tumblr.com">tumblr</a>
+            </div>
+        </section>
+        <section class="class_4">
+            <div>
+                <img class="mamonga_picture" src="profile.picture.png" alt="">
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <section class="class_5">
+            <div>
+                <p>Thank you for visiting my epic Linktree</p>
+            </div>
+        </section>
+
+        <section class="class_6">
+            <div>
+                <a href="https://crouton.net/">sorce</a>
+
+                <a href=" https://crouton.net/">source</a>
+
+                <a href="https://crouton.net/">source</a>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <p>epic legal terms and jergin that no one reads</p>
+            </div>
+        </section>
+
+
+    </footer>
+
+
+    <script>
+
+
+        const overstimulationToggle = document.getElementById("overstimulationToggle")
+        overstimulationToggle.addEventListener("click", () => {
+            document.body.classList.toggle("overstimulation")
+
+            if (document.body.classList.contains("overstimulation")) {
+            overstimulationToggle.textContent = "understimulation"
+        } else {
+            overstimulationToggle.textContent = "overstimulation"
+        }
+
+        });
+       
+    
+
+
+        const myButton = document.getElementsByClassName('button')
+        const message = "Oucht! Stop poking me"
+
+        function alertMessage() {
+            alert(message);
+        }
+
+        myButton[0].addEventListener("click", alertMessage);
+
+
+
+
+    </script>
+</body>
+
+</html>
